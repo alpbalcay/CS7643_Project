@@ -1,4 +1,4 @@
-# Environment Setup for `preprocess` Project
+# Environment Setup for `preprocess` 
 
 This project uses a Conda environment named `preprocess` with Python 3.7 and several important data science libraries.
 

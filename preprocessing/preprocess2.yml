@@ -1,0 +1,17 @@
+name: preprocess2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pyyaml==5.4.1
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - optuna==2.0.0
+  - pytorch
+  - torchvision
+  - pip:
+    - u8darts[all]

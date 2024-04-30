@@ -14,19 +14,13 @@ The dataset is organized into CSV files containing sales data for each product a
 
 To get started with this project, follow these steps:
 
-1. Clone the repository:
-``
+1. Clone the repository: ``
 git clone git@github.com:alpbalcay/CS7643_Project.git``
 
 2. Download the dataset from the provided Google Drive link and place it in the `data` directory within the project root folder.
 
-3. Create a Conda environment using the provided `environment.yaml` file:
-``
-conda (mamba) env create -f environment.yaml``
-
-4. Activate the Conda environment:
-``
-conda (mamba) activate cs7643-fp``
+3. Create a Conda environment using the provided `environment.yaml` file: ``conda (mamba) env create -f environment.yaml``
+4. Activate the Conda environment:``conda (mamba) activate cs7643-fp``
 
 5. Open the provided Jupyter notebook (`ModelRuns.ipynb`) in Google Colab or any Jupyter-compatible environment.
 

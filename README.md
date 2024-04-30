@@ -13,9 +13,8 @@ The dataset is organized into CSV files containing sales data for each product a
 To get started with this project, follow these steps:
 
 1. Clone the repository:
-
 ``
-git clone https://github.com/your-username/time-series-forecasting-project.git``
+git clone git@github.com:alpbalcay/CS7643_Project.git``
 
 2. Download the dataset from the provided Google Drive link and place it in the `data` directory within the project root folder.
 
@@ -32,53 +31,53 @@ conda (mamba) activate cs7643-fp``
 6. Follow the instructions in the notebook to run the code and train the forecasting models.
 
 ## Project Structure
-
+```
 .
 ├── ModelRuns.ipynb
 ├── README.md
 ├── data
-│ ├── LSTM_covariates.pkl
-│ ├── LSTM_target.pkl
-│ ├── LSTM_train.pkl
-│ ├── NHiTS_covariates.pkl
-│ ├── NHiTS_train.pkl
-│ ├── TFT_fut_cov.pkl
-│ ├── TFT_past_cov.pkl
-│ ├── TFT_train.pkl
-│ ├── actual_series.pkl
-│ ├── holidays_events.csv
-│ ├── oil.csv
-│ ├── sample_submission.csv
-│ ├── stores.csv
-│ ├── test.csv
-│ ├── train.csv
-│ ├── train_pipeline.pkl
-│ ├── training_transformed.pkl
-│ └── transactions.csv
+│   ├── LSTM_covariates.pkl
+│   ├── LSTM_target.pkl
+│   ├── LSTM_train.pkl
+│   ├── NHiTS_covariates.pkl
+│   ├── NHiTS_train.pkl
+│   ├── TFT_fut_cov.pkl
+│   ├── TFT_past_cov.pkl
+│   ├── TFT_train.pkl
+│   ├── actual_series.pkl
+│   ├── holidays_events.csv
+│   ├── oil.csv
+│   ├── sample_submission.csv
+│   ├── stores.csv
+│   ├── test.csv
+│   ├── train.csv
+│   ├── train_pipeline.pkl
+│   ├── training_transformed.pkl
+│   └── transactions.csv
 ├── data_process.py
 ├── environment.yaml
 ├── models
-│ ├── init.py
-│ ├── pycache
-│ ├── lstm.py
-│ ├── nhits.py
-│ └── tft.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── lstm.py
+│   ├── nhits.py
+│   └── tft.py
 ├── plots
 ├── preprocess
-│ ├── init.py
-│ ├── holiday_cov.py
-│ ├── oil_cov.py
-│ ├── promotion_cov.py
-│ ├── sales.py
-│ ├── time_cov.py
-│ ├── train_transform.py
-│ └── transaction_cov.py
+│   ├── __init__.py
+│   ├── holiday_cov.py
+│   ├── oil_cov.py
+│   ├── promotion_cov.py
+│   ├── sales.py
+│   ├── time_cov.py
+│   ├── train_transform.py
+│   └── transaction_cov.py
 ├── run_lstm.py
 ├── run_nhits.py
 ├── run_tft.py
 └── utils
-└── init.py
-
+    └── __init__.py
+```
 ## Models Used
 
 ### 1. TFT Model

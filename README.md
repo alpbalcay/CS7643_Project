@@ -10,6 +10,8 @@ The dataset is organized into CSV files containing sales data for each product a
 
 ## Getting Started
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kkLPSHp4rKax2NoPP_PtqEsBOlo4AIrD?usp=sharing)
+
 To get started with this project, follow these steps:
 
 1. Clone the repository:

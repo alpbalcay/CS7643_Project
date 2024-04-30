@@ -1,0 +1,24 @@
+name: cs7643-fp
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - scikit-learn=1.4.2
+  - tqdm
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+    - torchtext
+    - darts==0.29.0
+    - optuna==2.0.0
